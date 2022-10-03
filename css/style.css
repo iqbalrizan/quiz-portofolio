@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+}
+.navq {
+  display: flex;
+  text-align: center;
+  background-color: aliceblue;
+}
+.navq .navw {
+  font-family: "Gemunu Libre", sans-serif;
+  color: brown;
+  font-weight: bolder;
+  font-size: 36px;
+}
+.nave {
+  font-size: 24px;
+}
+.nave li {
+  padding: 10px;
+  margin: 10px;
+}
+.mainq {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainq h1 {
+  font-size: 44px;
+  line-height: 60px;
+}
+.mainq p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.mainq img {
+  margin-left: 100px;
+}
+.contentq {
+  height: 642px;
+  background-color: brown;
+  margin-top: 120px;
+}
+.contentw {
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+.contentw .contente {
+  align-items: center;
+  margin-top: 120px;
+}
+.contentw .card {
+  height: 411px;
+  width: 274px;
+  padding: 24px;
+  gap: 24px;
+}
+.footer .footerq ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer .footerq li {
+  padding: 20px;
+}
+.footer p {
+  text-align: center;
+}
+/* media querry */
+@media (max-width: 560px) {
+  body {
+    width: 100%;
+  }
+  .mainq {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  .contentw {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+  }
+  .contentq {
+    height: 1650px;
+  }
+}
