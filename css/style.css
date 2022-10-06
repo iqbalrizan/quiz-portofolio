@@ -1,0 +1,106 @@
+body {
+  width: 100%;
+}
+.navq {
+  display: flex;
+  text-align: center;
+  background-color: aliceblue;
+}
+.navq .navw {
+  font-family: "Gemunu Libre", sans-serif;
+  color: brown;
+  font-weight: bolder;
+  font-size: 36px;
+}
+.nave {
+  font-size: 24px;
+}
+.nave li {
+  padding: 10px;
+  margin: 10px;
+}
+.mainq {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainq h1 {
+  font-size: 44px;
+  line-height: 60px;
+}
+.mainq p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.contentq {
+  background-color: brown;
+  padding: 50px;
+}
+.contentw {
+  align-items: center;
+  justify-content: center;
+}
+.contentw .contente {
+  align-items: center;
+}
+.contentw .card {
+  padding: 24px;
+  text-align: center;
+  align-items: center;
+}
+.footer {
+  padding: 30px;
+}
+.footer .footerq ul {
+  display: flex;
+  justify-content: center;
+}
+.footer .footerq li {
+  padding: 20px;
+}
+.footer p {
+  text-align: center;
+}
+/* media querry */
+@media (max-width: 540px) {
+  body {
+    width: 100%;
+  }
+  .mainq {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50%;
+  }
+  .contentw {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentw .card {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .mainq {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10%;
+  }
+  .contentw .card {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 991px) {
+  body {
+    width: 100%;
+  }
+  .mainq {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contentw .card {
+    margin-bottom: 10px;
+  }
+}
